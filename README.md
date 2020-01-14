@@ -24,9 +24,9 @@ This helm chart is designed to facilitate the deployment of the Dynatrace OneAge
 
 
 ## Configuration & Deployment
-- Please deploy the operator chart and verify the operator pod is running before deploying the oneagent chart.
+1. Verify the Dynatrace Operator pod is running before deploying the Dynatrace OneAgent chart
  
-1. Update the key/value pairs in the values.yaml file:
+2. Update the key/value pairs in the values.yaml file:
 - apiUrl: (this is your tenant url)
 - apiToken:
 - passToken: 
@@ -36,7 +36,7 @@ This helm chart is designed to facilitate the deployment of the Dynatrace OneAge
 - Please see below for an example for formatting purposes:
 ![](https://storage.googleapis.com/kdh-github/helm-oneagent/values.png)
  
-5. Deploy the OneAgent Helm Chart
+3. Deploy the OneAgent Helm Chart
 ```
 helm install --name dynatrace-oneagent /path/to/chart
 ```
