@@ -5,9 +5,9 @@
 
 # tennant ID URL
 spec:
-  apiUrl: https://rxc68685.live.dynatrace.com/api
+  apiUrl: 
 
 # API & PAAS tokens
 data:
-  apiToken: M3d5R2RuVDZSUVd0b1pqeUFTVkZl
-  paasToken: UlA3WUF5TzZRaVNuekRHUFlaR0It
+  apiToken:
+  paasToken:
