@@ -1,6 +1,8 @@
+
+![](https://dt-cdn.net/images/dynatrace-logo-rgb-cph-800x142px-ac1b21b785.svg)
+
 # Dynatrace Oneagent Helm Chart
 This helm chart is designed to facilitate the deployment of the Dynatrace OneAgent as a Helm Chart.
-![](https://dt-cdn.net/images/dynatrace-logo-rgb-cph-800x142px-ac1b21b785.svg)
 
 ### Prerequisites
 1. A Dynatrace namespace has been created in your cluster
