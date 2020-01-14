@@ -9,8 +9,8 @@ This helm chart is designed to facilitate the deployment of the Dynatrace OneAge
 2. The Tiller Service Account has access to the Dynatrace namespace
 3. The Dynatrace Operator has been succesfully deployed to your cluster
 
-Please note, you MUST install the OneAgent Operator to your cluster BEFORE deploying the OneAgent.
-Dynatrace Operator Helm Chart:
+**Please note, you MUST install the OneAgent Operator to your cluster BEFORE deploying the OneAgent.**
+###Dynatrace Operator Helm Chart:
 <https://github.com/kyledharrington/dynatrace-operator>
 
 ### Notes
@@ -31,12 +31,10 @@ Dynatrace Operator Helm Chart:
 - apiToken:
 - passToken: 
     - Tokens can be generated from the Dynatrace UI by navigating to:
-        **Settings --> integration --> Dynatrace API**
+    - **Settings --> integration --> Dynatrace API**
+    
 - Please see below for an example for formatting purposes:
 ![](https://storage.googleapis.com/kdh-github/helm-oneagent/values.png)
-
-
-Please note that while you can have the apiURL value static, the token values will be populating a secrets file. I will have to defer to your side on how you populate a secrets in deployments.
  
 5. Deploy the OneAgent Helm Chart
 ```
