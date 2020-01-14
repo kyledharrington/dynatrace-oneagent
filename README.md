@@ -10,7 +10,7 @@ This helm chart is designed to facilitate the deployment of the Dynatrace OneAge
 3. The Dynatrace Operator has been succesfully deployed to your cluster
 
 **Please note, you MUST install the OneAgent Operator to your cluster BEFORE deploying the OneAgent.**
-###Dynatrace Operator Helm Chart:
+#### Dynatrace Operator Helm Chart:
 <https://github.com/kyledharrington/dynatrace-operator>
 
 ### Notes
@@ -32,7 +32,7 @@ This helm chart is designed to facilitate the deployment of the Dynatrace OneAge
 - passToken: 
     - Tokens can be generated from the Dynatrace UI by navigating to:
     - **Settings --> integration --> Dynatrace API**
-    
+
 - Please see below for an example for formatting purposes:
 ![](https://storage.googleapis.com/kdh-github/helm-oneagent/values.png)
  
