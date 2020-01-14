@@ -1,0 +1,13 @@
+# Default values for dynatrace-oneagent.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+
+# tennant ID URL
+spec:
+  apiUrl: https://rxc68685.live.dynatrace.com/api
+
+# API & PAAS tokens
+data:
+  apiToken: M3d5R2RuVDZSUVd0b1pqeUFTVkZl
+  paasToken: UlA3WUF5TzZRaVNuekRHUFlaR0It
