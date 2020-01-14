@@ -5,7 +5,7 @@
 
 # tennant ID URL
 spec:
-  apiUrl: 
+  apiUrl:
 
 # API & PAAS tokens
 data:
